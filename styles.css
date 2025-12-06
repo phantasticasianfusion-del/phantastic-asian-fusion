@@ -275,12 +275,12 @@ footer {
 }
 .about-photo {
   width: 100%;
-  height: 220px;            /* adjust to match your hero height style */
-  object-fit: cover;        /* clean crop while keeping proportions */
-  border-radius: 8px;       /* soft corners */
-  margin-bottom: 10px;
+  height: 220px;
+  object-fit: cover;    /* crops to fill the area */
+  border-radius: 8px;
   display: block;
 }
+
 .favorites-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
